@@ -1,0 +1,58 @@
+=== :OnórioL
+@tit: Onório de Lima
+
+# Infância no Brasil
+
+Onório de Lima viveu no Brasil.
+Ele viveu no Brasil até que deixou de viver
+no Brasil.
+
+# Percurso cultural no Porto
+
+Entre 1873 e 1930 Onório de Lima viveu no Porto,
+Cedofeita e foi parágrafos separados por linhas em branco.
+
+Lorem Ipsum
+
+
+
+@triplos:
+:OnórioL
+   a     :Person  ,
+        :Mecenas_cultural  ;
+   :Name  "Onório de Lima" ;
+   :birth_place :Brasil ;
+   :viveu_em :Porto,
+           :Gerês ;
+   :img "OnórioDL1.jpg" .
+
+:OnórioL
+   :pai_de :OndinaL .
+
+:CarolinaDA
+   :filho_de :OntinaL;..........
+   :Name "Carolina Dias Antunes";
+   :casou_com :JorgeDomingos.
+
+=== :JorgeDomingos
+@tit: António Jorge Domingos
+
+O Dr. António Jorge Domingos nasceu em Angola
+e ficou lá até deixar de estar lá.
+
+E depois escrevi um parágrafo a mais para fazer debugging.
+
+E vi que estava tudo bem.
+
+@triplos:
+:JorgeDomingos
+    a :Person,
+      :Etnólogo;
+    :Name  "António Jorge Domingos";
+    :pai_de  :FranciscoSM .
+
+@meta:
+:pai_de
+    :inverseOf :filho_de
+:teste_um
+    :inverseOf :um_teste
